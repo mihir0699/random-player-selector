@@ -188,6 +188,7 @@ export default function Home() {
                           onClick={() => {
                             setPlayersArray([]);
                             setPlayersConfirmed(false);
+                            setPlayerCount(0);
                           }}
                         >
                           Reset
